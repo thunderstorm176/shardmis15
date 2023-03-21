@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escape The Room</title>
+    <style>
+
+body {
+
+
+font-family: Arial, sans-serif;
+
+
+margin: 0;
+
+
+padding: 0;
+
+
+}
+
+
+h1 {
+
+
+text-align: center;
+
+
+margin-top: 2rem;
+
+
+}
+
+
+#connect-wallet-btn {
+
+
+margin-left: 1rem;
+
+
+font-size: 1rem;
+
+
+padding: 0.5rem 1rem;
+
+
+border: 2px solid black;
+
+
+border-radius: 0.5rem;
+
+
+background-color: white;
+
+
+color: black;
+
+
+}
+
+
+#game-board {
+
+
+display: block;
+
+
+margin: auto;
+
+
+margin-top: 2rem;
+
+
+border: 2px solid black;
+
+
+}
+
+
+#generate-new-board-btn, #compute-paths-btn {
+
+
+display: block;
+
+
+margin: auto;
+
+
+margin-top: 1rem;
+
+
+font-size: 1rem;
+
+
+padding: 0.5rem 1rem;
+
+
+border: 2px solid black;
+
+
+border-radius: 0.5rem;
+
+
+background-color: white;
+
+
+color: black;
+
+
+}
+
+
+</style>
+</head>
+<body>
+    <h1>Escape The Room</h1>
+
+    <button id="connect-wallet-btn">Connect to Metamask</button>
+
+    <canvas id="game-board" width="300" height="300"></canvas>
+    
+    <button id="generate-new-board-btn">Generate New Board</button>
+    
+    <button id="compute-paths-btn">Compute Paths</button>
+
+    <script src="https://cdn.jsdelivr.net/npm/web3@1.2.11/dist/web3.min.js"></script>
+    
+       <script src="script.js"></script>
+    </script>
+</body>
+</html>
